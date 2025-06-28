@@ -1,4 +1,4 @@
-package org.example.plantvszombies;
+package org.example.plantvszombies.Model;
 
 import java.util.List;
 

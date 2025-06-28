@@ -1,6 +1,6 @@
-package org.example.plantvszombies;
+package org.example.plantvszombies.Model;
 
-public class ExplosivePlant extends Plant{
+public class ExplosivePlant extends Plant {
     private int destructionPower;
     private int destructionRange;
     private DestructionType destructionType;

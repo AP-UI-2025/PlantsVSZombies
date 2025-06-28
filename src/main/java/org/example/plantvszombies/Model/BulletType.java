@@ -1,4 +1,4 @@
-package org.example.plantvszombies;
+package org.example.plantvszombies.Model;
 
 public enum BulletType {
     Normal,Snowy,Smoke

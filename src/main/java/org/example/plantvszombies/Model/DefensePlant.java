@@ -1,6 +1,6 @@
-package org.example.plantvszombies;
+package org.example.plantvszombies.Model;
 
-public class DefensePlant extends Plant{
+public class DefensePlant extends Plant {
     private int health;
 
 
