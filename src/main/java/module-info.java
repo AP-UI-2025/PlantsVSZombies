@@ -7,4 +7,6 @@ module org.example.plantvszombies {
     exports org.example.plantvszombies;
     exports org.example.plantvszombies.Model;
     opens org.example.plantvszombies.Model to javafx.fxml;
+    exports org.example.plantvszombies.Controller;
+    opens org.example.plantvszombies.Controller to javafx.fxml;
 }

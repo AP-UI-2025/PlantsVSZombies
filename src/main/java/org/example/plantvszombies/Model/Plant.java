@@ -24,5 +24,10 @@ public class Plant {
         return solarCost;
     }
 
+    @Override
+    public String toString() {
+        return plantName;
+    }
+
 }
 
