@@ -8,13 +8,15 @@ public class Player {
     private String userName;
     private String password;
     private int level;
-    private List<String> plants;
+    private int plants;
 
-    public Player(String userName, String password , int level , ArrayList<String> plants) {
+    public Player(String userName, String password , int level , int plants) {
         this.userName = userName;
         this.password = password;
-        this.level = 0;
+        this.level = level;
         this.plants = plants;
+
+
     }
     public String getUserName() {
         return userName;
@@ -25,7 +27,7 @@ public class Player {
     public int getLevel() {
         return level;
     }
-    public List<String> getPlants() {
+    public int getPlants() {
         return plants;
     }
 
@@ -41,12 +43,11 @@ public class Player {
         this.level = level;
     }
 
-    public void setPlants(List<String> plants) {
+    public void setPlants(int plants) {
         this.plants = plants;
     }
 
-    public String toFileFormat() {
-        String plantsString = String.join("|" , plants);
+   /* public String toFileFormat() {
         return userName + "," + password + "," + level + "," + plants;
     }
 
@@ -59,7 +60,7 @@ public class Player {
             plants = new ArrayList<>();
         }
         return new Player(parts[0], parts[1], Integer.parseInt(parts[2] ) , plants);
-    }
+    }*/
 
 
 }
